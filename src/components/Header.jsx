@@ -14,7 +14,7 @@ const Header = () => {
     { name: 'Blog', path: '/blog' },
     { name: 'FAQs', path: '/faqs' },
     { name: 'Careers', path: '/careerspath' },
-    { name: 'Contact', path: '/contact' },
+    { name: 'Join Us', path: '/contact' },
   ];
 
   const toggleMenu = () => {

@@ -47,6 +47,8 @@ import Microcontroller from './pages/Microcontroller';
 import CareerPath from './pages/CareerPath';
 import Login from './pages/Login';
 import Boxintern from './pages/Boxintern';
+import Blog from './pages/Blog';
+import FAQs from './pages/FAQs';
 // import PLC from './pages/Plc';
 // import PLC from './pages/keyarea/Plc';
 
@@ -116,6 +118,16 @@ const AppContent = () => {
               <Careers />
             </PageWrapper>
           } /> */}
+          <Route path="/blog" element={
+            <PageWrapper pageKey="blog">
+              <Blog />
+            </PageWrapper>
+          } />
+          <Route path="/faqs" element={
+            <PageWrapper pageKey="faqs">
+              <FAQs />
+            </PageWrapper>
+          } />
           <Route path="/contact" element={
             <PageWrapper pageKey="contact">
               <Contact />
