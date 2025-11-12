@@ -17,7 +17,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import RoboticsExplore from './pages/RoboticsExplore';
 import Loader from './components/Loader';
-import Box from './pages/Box';
+import Box from './pages/box';
 import Programs from './pages/programs';
 import Contact from './pages/Contact';
 import PLC from './pages/Plc';
