@@ -12,7 +12,7 @@ const AutomationExplore = () => {
     const navigate = useNavigate();
     return (
         <>
-           
+
             {/* <div className="automation-explore">
                 <div className="automation-explore-content">
                     <div className="automation-explore-left">
@@ -440,186 +440,191 @@ const AutomationExplore = () => {
                         </p>
                     </div>
 
-                    <div style={{ marginTop: '4rem' }}>
-                        <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-                            <h2 style={{
-                                fontSize: '2.2rem',
-                                marginBottom: '1rem',
-                                color: '#ffffff'
-                            }}>
-                                Join Our Programs
-                            </h2>
-                            <p style={{
-                                color: '#d1d5db',
-                                fontSize: '1.1rem',
-                                maxWidth: '600px',
-                                margin: '0 auto'
-                            }}>
-                                Take the next step in your career with our specialized programs
-                            </p>
-                        </div>
+                    <section style={{ backgroundColor: '#000000', color: '#ffffff', padding: '4rem 2rem' }}>
+                        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
 
-                        <div style={{
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                            gap: '2rem',
-                            marginTop: '2rem'
-                        }}>
-                            <div style={{
-                                backgroundColor: '#111111',
-                                borderRadius: '10px',
-                                padding: '2rem',
-                                border: '1px solid #333',
-                                transition: 'all 0.3s ease',
-                                ':hover': {
-                                    transform: 'translateY(-5px)'
-                                }
-                            }}>
-                                <div style={{
-                                    backgroundColor: 'rgba(81, 215, 0, 0.1)',
-                                    width: '70px',
-                                    height: '70px',
-                                    borderRadius: '50%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    margin: '0 auto 1.5rem'
-                                }}>
-                                    <LuBrainCircuit size={32} color='#51d700' />
+                            <div style={{ marginTop: '4rem' }}>
+                                <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+                                    <h2 style={{
+                                        fontSize: '2.2rem',
+                                        marginBottom: '1rem',
+                                        color: '#ffffff'
+                                    }}>
+                                        Join Our Programs
+                                    </h2>
+                                    <p style={{
+                                        color: '#d1d5db',
+                                        fontSize: '1.1rem',
+                                        maxWidth: '600px',
+                                        margin: '0 auto'
+                                    }}>
+                                        Take the next step in your career with our specialized programs
+                                    </p>
                                 </div>
-                                <h3 style={{
-                                    fontSize: '1.5rem',
-                                    marginBottom: '1rem',
-                                    color: '#ffffff',
-                                    textAlign: 'center'
+
+                                <div style={{
+                                    display: 'grid',
+                                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                                    gap: '2rem',
+                                    marginTop: '2rem'
                                 }}>
-                                    Internship Program
-                                </h3>
-                                <p style={{
-                                    color: '#d1d5db',
-                                    lineHeight: '1.7',
-                                    marginBottom: '1.5rem',
-                                    fontSize: '1rem'
-                                }}>
-                                    Gain hands-on experience working on real projects with our team of experts. Perfect for students and recent graduates looking to kickstart their careers in Next-Gen technology.
-                                </p>
-                                <ul style={{
-                                    listStyle: 'none',
-                                    padding: 0,
-                                    margin: '0 0 1.5rem 0',
-                                    textAlign: 'left'
-                                }}>
-                                    {['Real-world projects', 'Mentorship from experts', 'Stipend available', 'Flexible duration'].map((item, i) => (
-                                        <li key={i} style={{
-                                            padding: '0.5rem 0',
-                                            color: '#e5e7eb',
+                                    <div style={{
+                                        backgroundColor: '#111111',
+                                        borderRadius: '10px',
+                                        padding: '2rem',
+                                        border: '1px solid #333',
+                                        transition: 'all 0.3s ease',
+                                        ':hover': {
+                                            transform: 'translateY(-5px)'
+                                        }
+                                    }}>
+                                        <div style={{
+                                            backgroundColor: 'rgba(81, 215, 0, 0.1)',
+                                            width: '70px',
+                                            height: '70px',
+                                            borderRadius: '50%',
                                             display: 'flex',
                                             alignItems: 'center',
-                                            gap: '0.5rem',
-                                            fontSize: '0.95rem'
+                                            justifyContent: 'center',
+                                            margin: '0 auto 1.5rem'
                                         }}>
-                                            <span style={{ color: '#51d700' }}>✓</span> {item}
-                                        </li>
-                                    ))}
-                                </ul>
-                                <button style={{
-                                    backgroundColor: '#51d700',
-                                    color: '#000000',
-                                    border: 'none',
-                                    padding: '0.75rem 1.5rem',
-                                    borderRadius: '6px',
-                                    fontWeight: '600',
-                                    cursor: 'pointer',
-                                    width: '100%',
-                                    fontSize: '1rem',
-                                    transition: 'all 0.2s ease',
-                                    ':hover': {
-                                        backgroundColor: '#3da300',
-                                        transform: 'translateY(-2px)'
-                                    }
-                                }} onClick={() => navigate('/box')}>
-                                    Apply Now
-                                </button>
-                            </div>
+                                            <LuBrainCircuit size={32} color='#51d700' />
+                                        </div>
+                                        <h3 style={{
+                                            fontSize: '1.5rem',
+                                            marginBottom: '1rem',
+                                            color: '#ffffff',
+                                            textAlign: 'center'
+                                        }}>
+                                            Internship Program
+                                        </h3>
+                                        <p style={{
+                                            color: '#d1d5db',
+                                            lineHeight: '1.7',
+                                            marginBottom: '1.5rem',
+                                            fontSize: '1rem'
+                                        }}>
+                                            Gain hands-on experience working on real projects with our team of experts. Perfect for students and recent graduates looking to kickstart their careers in Next-Gen technology.
+                                        </p>
+                                        <ul style={{
+                                            listStyle: 'none',
+                                            padding: 0,
+                                            margin: '0 0 1.5rem 0',
+                                            textAlign: 'left'
+                                        }}>
+                                            {['Real-world projects', 'Mentorship from experts', 'Stipend available', 'Flexible duration'].map((item, i) => (
+                                                <li key={i} style={{
+                                                    padding: '0.5rem 0',
+                                                    color: '#e5e7eb',
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    gap: '0.5rem',
+                                                    fontSize: '0.95rem'
+                                                }}>
+                                                    <span style={{ color: '#51d700' }}>✓</span> {item}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <button style={{
+                                            backgroundColor: '#51d700',
+                                            color: '#000000',
+                                            border: 'none',
+                                            padding: '0.75rem 1.5rem',
+                                            borderRadius: '6px',
+                                            fontWeight: '600',
+                                            cursor: 'pointer',
+                                            width: '100%',
+                                            fontSize: '1rem',
+                                            transition: 'all 0.2s ease',
+                                            ':hover': {
+                                                backgroundColor: '#3da300',
+                                                transform: 'translateY(-2px)'
+                                            }
+                                        }} onClick={() => navigate('/boxintern')}>
+                                            Apply Now
+                                        </button>
+                                    </div>
 
-                            <div style={{
-                                backgroundColor: '#111111',
-                                borderRadius: '10px',
-                                padding: '2rem',
-                                border: '1px solid #333',
-                                transition: 'all 0.3s ease',
-                                ':hover': {
-                                    transform: 'translateY(-5px)'
-                                }
-                            }}>
-                                <div style={{
-                                    backgroundColor: 'rgba(79, 70, 229, 0.1)',
-                                    width: '70px',
-                                    height: '70px',
-                                    borderRadius: '50%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    margin: '0 auto 1.5rem'
-                                }}>
-                                    <LiaChalkboardTeacherSolid size={32} color='#a5b4fc' />
-                                </div>
-                                <h3 style={{
-                                    fontSize: '1.5rem',
-                                    marginBottom: '1rem',
-                                    color: '#ffffff',
-                                    textAlign: 'center'
-                                }}>
-                                    Full-time Positions
-                                </h3>
-                                <p style={{
-                                    color: '#d1d5db',
-                                    lineHeight: '1.7',
-                                    marginBottom: '1.5rem',
-                                    fontSize: '1rem'
-                                }}>
-                                    Join our team of experts and work on cutting-edge automation projects. We're looking for passionate individuals ready to make an impact in the world of technology.
-                                </p>
-                                <ul style={{
-                                    listStyle: 'none',
-                                    padding: 0,
-                                    margin: '0 0 1.5rem 0',
-                                    textAlign: 'left'
-                                }}>
-                                    {['Competitive salary', 'Career growth', 'Flexible work', 'Latest tech'].map((item, i) => (
-                                        <li key={i} style={{
-                                            padding: '0.5rem 0',
-                                            color: '#e5e7eb',
+                                    <div style={{
+                                        backgroundColor: '#111111',
+                                        borderRadius: '10px',
+                                        padding: '2rem',
+                                        border: '1px solid #333',
+                                        transition: 'all 0.3s ease',
+                                        ':hover': {
+                                            transform: 'translateY(-5px)'
+                                        }
+                                    }}>
+                                        <div style={{
+                                            backgroundColor: 'rgba(79, 70, 229, 0.1)',
+                                            width: '70px',
+                                            height: '70px',
+                                            borderRadius: '50%',
                                             display: 'flex',
                                             alignItems: 'center',
-                                            gap: '0.5rem',
-                                            fontSize: '0.95rem'
+                                            justifyContent: 'center',
+                                            margin: '0 auto 1.5rem'
                                         }}>
-                                            <span style={{ color: '#a5b4fc' }}>✓</span> {item}
-                                        </li>
-                                    ))}
-                                </ul>
-                                <button style={{
-                                    backgroundColor: '#4f46e5',
-                                    color: '#ffffff',
-                                    border: 'none',
-                                    padding: '0.75rem 1.5rem',
-                                    borderRadius: '6px',
-                                    fontWeight: '600',
-                                    cursor: 'pointer',
-                                    width: '100%',
-                                    fontSize: '1rem',
-                                    transition: 'all 0.2s ease',
-                                    ':hover': {
-                                        backgroundColor: '#4338ca',
-                                        transform: 'translateY(-2px)'
-                                    }
-                                }} onClick={() => navigate('/box')}>
-                                    View Openings
-                                </button>
+                                            <LiaChalkboardTeacherSolid size={32} color='#a5b4fc' />
+                                        </div>
+                                        <h3 style={{
+                                            fontSize: '1.5rem',
+                                            marginBottom: '1rem',
+                                            color: '#ffffff',
+                                            textAlign: 'center'
+                                        }}>
+                                            Full-time Positions
+                                        </h3>
+                                        <p style={{
+                                            color: '#d1d5db',
+                                            lineHeight: '1.7',
+                                            marginBottom: '1.5rem',
+                                            fontSize: '1rem'
+                                        }}>
+                                            Join our team of experts and work on cutting-edge automation projects. We're looking for passionate individuals ready to make an impact in the world of technology.
+                                        </p>
+                                        <ul style={{
+                                            listStyle: 'none',
+                                            padding: 0,
+                                            margin: '0 0 1.5rem 0',
+                                            textAlign: 'left'
+                                        }}>
+                                            {['Competitive salary', 'Career growth', 'Flexible work', 'Latest tech'].map((item, i) => (
+                                                <li key={i} style={{
+                                                    padding: '0.5rem 0',
+                                                    color: '#e5e7eb',
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    gap: '0.5rem',
+                                                    fontSize: '0.95rem'
+                                                }}>
+                                                    <span style={{ color: '#a5b4fc' }}>✓</span> {item}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <button style={{
+                                            backgroundColor: '#4f46e5',
+                                            color: '#ffffff',
+                                            border: 'none',
+                                            padding: '0.75rem 1.5rem',
+                                            borderRadius: '6px',
+                                            fontWeight: '600',
+                                            cursor: 'pointer',
+                                            width: '100%',
+                                            fontSize: '1rem',
+                                            transition: 'all 0.2s ease',
+                                            ':hover': {
+                                                backgroundColor: '#4338ca',
+                                                transform: 'translateY(-2px)'
+                                            }
+                                        }} onClick={() => navigate('/box')}>
+                                            View Openings
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </section>
 

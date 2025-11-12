@@ -316,9 +316,7 @@ const DCS = () => {
                     </div>
                 </section>
 
-                <div className="career-footer">
-                    <p>&copy; {new Date().getFullYear()} Career. All rights reserved.</p>
-                </div>
+                
             </div>
 
         </>

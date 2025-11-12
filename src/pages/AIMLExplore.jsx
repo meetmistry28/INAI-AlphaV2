@@ -630,7 +630,7 @@ const AIMLExplore = () => {
                                         backgroundColor: '#3da300',
                                         transform: 'translateY(-2px)'
                                     }
-                                }} onClick={() => navigate('/box')}>
+                                }} onClick={() => navigate('/boxintern')}>
                                     Apply Now
                                 </button>
                             </div>

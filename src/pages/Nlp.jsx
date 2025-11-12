@@ -196,9 +196,7 @@ const Nlp = () => {
                     </section>
                 </div>
 
-                <div className="career-footer">
-                    <p>&copy; {new Date().getFullYear()} Career. All rights reserved.</p>
-                </div>
+                
             </div>
 
         </>

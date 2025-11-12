@@ -17,7 +17,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import RoboticsExplore from './pages/RoboticsExplore';
 import Loader from './components/Loader';
-import Box from './pages/box';
+import Box from './pages/Box';
 import Programs from './pages/programs';
 import Contact from './pages/Contact';
 import PLC from './pages/Plc';
@@ -46,6 +46,7 @@ import Embeddedsystem from './pages/Embeddedsystem';
 import Microcontroller from './pages/Microcontroller';
 import CareerPath from './pages/CareerPath';
 import Login from './pages/Login';
+import Boxintern from './pages/Boxintern';
 // import PLC from './pages/Plc';
 // import PLC from './pages/keyarea/Plc';
 
@@ -153,6 +154,11 @@ const AppContent = () => {
           <Route path="/box" element={
             <PageWrapper pageKey="careers">
               <Box />
+            </PageWrapper>
+          } />
+          <Route path="/boxintern" element={
+            <PageWrapper pageKey="careers">
+              <Boxintern />
             </PageWrapper>
           } />
           <Route path="/plc" element={
@@ -284,7 +290,7 @@ const AppContent = () => {
 
         </Routes>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

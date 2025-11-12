@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Footer.css';
-import INAILogo from '../assets/INAI.png';
+import INAILogo from '../assets/INAICAREERWhite.png';
 import { IoLogoInstagram } from 'react-icons/io5';
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineYoutube } from "react-icons/ai";
@@ -42,10 +42,10 @@ const Footer = () => {
             {/* Column 3: Our Services */}
             <div className="footer-column">
               <h3 className="footer-heading">Our Programs</h3>
-              <ul className="footer-links-list">
-                <li><Link to="/careers/ai-ml-explore">AI ML</Link></li>
-                <li><Link to="/careers/automation-explore">Automation</Link></li>
-                <li><Link to="/careers/robotics-explore">Robotics</Link></li>
+              <ul className="footer-links-list" >
+                <li><Link to="/careers/ai-ml-explore" style={{color:"#ffffff"}}>AI ML</Link></li>
+                <li><Link to="/careers/automation-explore" style={{color:"#ffffff"}}>Automation</Link></li>
+                <li><Link to="/careers/robotics-explore" style={{color:"#ffffff"}}>Robotics</Link></li>
               </ul>
             </div>
 

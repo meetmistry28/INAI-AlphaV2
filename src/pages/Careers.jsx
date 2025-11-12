@@ -23,11 +23,11 @@ function Careers() {
   const handleBoxClick = (path) => {
     navigate(path);
   };
-  
+
   const slides = [
     {
-      title: 'AI/ML Career Opportunities',
-      description: 'Join our team of experts working on cutting-edge AI and Machine Learning solutions that are transforming industries worldwide.',
+      title: 'AI/ML The Intelligence Era',
+      description: 'Build Intelligence That Shapes the Future. Step Into the World of Smart Technologies & Future Computing',
       cta: 'Explore AI/ML Careers',
       link: '/careers/ai-ml-explore',
       image: AIMLImage,
@@ -38,8 +38,8 @@ function Careers() {
       ]
     },
     {
-      title: 'Automation Specialists Wanted',
-      description: 'Be part of the automation revolution. Work with the latest technologies to build intelligent automation solutions.',
+      title: 'Automation is the Future of Industry Leaders',
+      description: 'Build the Skills to Lead Tomorrows Smart Automation. Transform Into a Smart-Industry Automation Engineer.',
       cta: 'View Automation Roles',
       link: '/careers/automation-explore',
       image: AutomationImage,
@@ -50,8 +50,8 @@ function Careers() {
       ]
     },
     {
-      title: 'Robotics Engineering',
-      description: 'Shape the future of robotics with our innovative team. Work on projects that push the boundaries of what\'s possible.',
+      title: 'Robotics is the Future of Engineering',
+      description: 'Turn Ideas Into Intelligent Machines. Become a Robotics Engineer for the Next Tech Revolution',
       cta: 'Discover Robotics Careers',
       link: '/careers/robotics-explore',
       image: RoboticsImage,
@@ -129,7 +129,7 @@ function Careers() {
           <div className="swiper-button-next">
             <FaChevronRight />
           </div>
-          
+
           {/* Custom Pagination */}
           <div className="swiper-pagination"></div>
         </Swiper>
@@ -157,195 +157,181 @@ function Careers() {
               margin: '0 auto'
             }}>See what our students have to say about their learning experience</p>
           </div>
-          
-          <div className="video-testimonial-grid">
-            {/* Video Section */}
-            <div className="video-container">
-              <div className="video-wrapper">
-                <div className="play-button">
-                  <FaPlay size={24} />
-                </div>
-                <img 
-                  src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="Student Learning Experience"
-                  className="video-thumbnail"
-                />
-              </div>
-             
-            </div>
 
-            {/* Testimonials Section with Swiper */}
-            <div className="testimonials-section" style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }}>
-              <Swiper
-                modules={[Pagination, Navigation]}
-                spaceBetween={30}
-                slidesPerView={1}
-                loop={true}
-                pagination={{
-                  clickable: true,
-                  el: '.testimonial-pagination',
-                  type: 'bullets',
-                }}
-                navigation={{
-                  nextEl: '.testimonial-button-next',
-                  prevEl: '.testimonial-button-prev',
-                }}
-                className="testimonials-swiper"
-                style={{
-                  padding: '20px 0 60px',
-                  width: '100%',
-                }}
-              >
-                {[
-                  {
-                    id: 1,
-                    text: "The hands-on projects and industry-relevant curriculum helped me land my dream job at a top tech company. The instructors are incredibly supportive!",
-                    name: "Sarah Johnson",
-                    role: "AI Engineer at TechCorp",
-                    image: "https://randomuser.me/api/portraits/women/43.jpg"
-                  },
-                  {
-                    id: 2,
-                    text: "The mentorship I received was exceptional. The practical approach to learning made all the difference in my career transition.",
-                    name: "Michael Chen",
-                    role: "Machine Learning Specialist",
-                    image: "https://randomuser.me/api/portraits/men/32.jpg"
-                  },
-                  {
-                    id: 3,
-                    text: "The community and networking opportunities provided are invaluable. I've grown both personally and professionally through this program.",
-                    name: "Priya Patel",
-                    role: "Data Scientist",
-                    image: "https://randomuser.me/api/portraits/women/65.jpg"
-                  },
-                  {
-                    id: 4,
-                    text: "The course structure and hands-on projects gave me the confidence to apply for senior positions. I got a 40% salary increase after completing the program!",
-                    name: "David Kim",
-                    role: "Senior ML Engineer",
-                    image: "https://randomuser.me/api/portraits/men/45.jpg"
-                  }
-                ].map((testimonial) => (
-                  <SwiperSlide key={testimonial.id} style={{ padding: '10px' }}>
-                    <div className="testimonial-card" style={{
-                      background: 'rgba(255, 255, 255, 0.03)',
-                      border: '1px solid rgba(255, 255, 255, 0.1)',
-                      borderRadius: '12px',
-                      padding: '2rem',
-                      height: '100%',
-                      boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)'
+
+          {/* Video Section */}
+
+          {/* Testimonials Section */}
+          <div className="testimonials-section" style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }}>
+            <Swiper
+              modules={[Pagination, Navigation]}
+              spaceBetween={30}
+              slidesPerView={1}
+              loop={true}
+              pagination={{
+                clickable: true,
+                el: '.testimonial-pagination',
+                type: 'bullets',
+              }}
+              navigation={{
+                nextEl: '.testimonial-button-next',
+                prevEl: '.testimonial-button-prev',
+              }}
+              className="testimonials-swiper"
+              style={{
+                padding: '20px 0 60px',
+                width: '100%',
+              }}
+            >
+              {[
+                {
+                  id: 1,
+                  text: "The hands-on projects and industry-relevant curriculum helped me land my dream job at a top tech company. The instructors are incredibly supportive!",
+                  name: "Sarah Johnson",
+                  role: "AI Engineer at TechCorp",
+                  image: "https://randomuser.me/api/portraits/women/43.jpg"
+                },
+                {
+                  id: 2,
+                  text: "The mentorship I received was exceptional. The practical approach to learning made all the difference in my career transition.",
+                  name: "Michael Chen",
+                  role: "Machine Learning Specialist",
+                  image: "https://randomuser.me/api/portraits/men/32.jpg"
+                },
+                {
+                  id: 3,
+                  text: "The community and networking opportunities provided are invaluable. I've grown both personally and professionally through this program.",
+                  name: "Priya Patel",
+                  role: "Data Scientist",
+                  image: "https://randomuser.me/api/portraits/women/65.jpg"
+                },
+                {
+                  id: 4,
+                  text: "The course structure and hands-on projects gave me the confidence to apply for senior positions. I got a 40% salary increase after completing the program!",
+                  name: "David Kim",
+                  role: "Senior ML Engineer",
+                  image: "https://randomuser.me/api/portraits/men/45.jpg"
+                }
+              ].map((testimonial) => (
+                <SwiperSlide key={testimonial.id} style={{ padding: '10px' }}>
+                  <div className="testimonial-card" style={{
+                    background: 'rgba(255, 255, 255, 0.03)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    borderRadius: '12px',
+                    padding: '2rem',
+                    height: '100%',
+                    boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)'
+                  }}>
+                    <div className="testimonial-content" style={{ position: 'relative', marginBottom: '1.5rem' }}>
+                      <div style={{
+                        position: 'absolute',
+                        top: '-10px',
+                        left: '-5px',
+                        fontSize: '4rem',
+                        fontFamily: 'Georgia, serif',
+                        color: 'rgba(255, 255, 255, 0.1)',
+                        lineHeight: 1,
+                        zIndex: 1
+                      }}>"</div>
+                      <p style={{
+                        position: 'relative',
+                        zIndex: 2,
+                        fontSize: '1rem',
+                        lineHeight: 1.7,
+                        color: '#e5e7eb',
+                        margin: 0,
+                        paddingLeft: '1.5rem'
+                      }}>{testimonial.text}</p>
+                    </div>
+                    <div className="testimonial-author" style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '1rem',
+                      paddingTop: '1rem',
+                      borderTop: '1px solid rgba(255, 255, 255, 0.1)'
                     }}>
-                      <div className="testimonial-content" style={{ position: 'relative', marginBottom: '1.5rem' }}>
-                        <div style={{
-                          position: 'absolute',
-                          top: '-10px',
-                          left: '-5px',
-                          fontSize: '4rem',
-                          fontFamily: 'Georgia, serif',
-                          color: 'rgba(255, 255, 255, 0.1)',
-                          lineHeight: 1,
-                          zIndex: 1
-                        }}>"</div>
-                        <p style={{
-                          position: 'relative',
-                          zIndex: 2,
-                          fontSize: '1rem',
-                          lineHeight: 1.7,
-                          color: '#e5e7eb',
+                      <img
+                        src={testimonial.image}
+                        alt={testimonial.name}
+                        style={{
+                          width: '50px',
+                          height: '50px',
+                          borderRadius: '50%',
+                          objectFit: 'cover',
+                          border: '2px solid rgba(59, 130, 246, 0.5)'
+                        }}
+                      />
+                      <div>
+                        <h4 style={{
                           margin: 0,
-                          paddingLeft: '1.5rem'
-                        }}>{testimonial.text}</p>
-                      </div>
-                      <div className="testimonial-author" style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '1rem',
-                        paddingTop: '1rem',
-                        borderTop: '1px solid rgba(255, 255, 255, 0.1)'
-                      }}>
-                        <img 
-                          src={testimonial.image} 
-                          alt={testimonial.name}
-                          style={{
-                            width: '50px',
-                            height: '50px',
-                            borderRadius: '50%',
-                            objectFit: 'cover',
-                            border: '2px solid rgba(59, 130, 246, 0.5)'
-                          }}
-                        />
-                        <div>
-                          <h4 style={{
-                            margin: 0,
-                            fontSize: '1rem',
-                            color: '#fff',
-                            fontWeight: 600
-                          }}>{testimonial.name}</h4>
-                          <p style={{
-                            margin: '0.25rem 0 0',
-                            fontSize: '0.85rem',
-                            color: '#a0a0a0'
-                          }}>{testimonial.role}</p>
-                        </div>
+                          fontSize: '1rem',
+                          color: '#fff',
+                          fontWeight: 600
+                        }}>{testimonial.name}</h4>
+                        <p style={{
+                          margin: '0.25rem 0 0',
+                          fontSize: '0.85rem',
+                          color: '#a0a0a0'
+                        }}>{testimonial.role}</p>
                       </div>
                     </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-              
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+
+            <div style={{
+              position: 'absolute',
+              bottom: '0',
+              left: '50%',
+              transform: 'translateX(-50%)',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: '0.5rem',
+              zIndex: 10,
+              marginTop: '1rem',
+              background: 'rgba(0, 0, 0, 0.3)',
+              padding: '0.5rem 1rem',
+              borderRadius: '30px',
+              backdropFilter: 'blur(5px)'
+            }}>
+              <button style={{
+                width: '70px',
+                height: '36px',
+                borderRadius: '50%',
+                background: 'rgba(255, 255, 255, 0.1)',
+                border: 'none',
+                color: '#fff',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer',
+                transition: 'all 0.3s ease'
+              }} className="testimonial-button-prev">
+                <FaChevronLeft />
+              </button>
               <div style={{
-                position: 'absolute',
-                bottom: '0',
-                left: '50%',
-                transform: 'translateX(-50%)',
                 display: 'flex',
                 justifyContent: 'center',
-                alignItems: 'center',
                 gap: '0.5rem',
-                zIndex: 10,
-                marginTop: '1rem',
-                background: 'rgba(0, 0, 0, 0.3)',
-                padding: '0.5rem 1rem',
-                borderRadius: '30px',
-                backdropFilter: 'blur(5px)'
-              }}>
-                <button style={{
-                  width: '70px',
-                  height: '36px',
-                  borderRadius: '50%',
-                  background: 'rgba(255, 255, 255, 0.1)',
-                  border: 'none',
-                  color: '#fff',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  cursor: 'pointer',
-                  transition: 'all 0.3s ease'
-                }} className="testimonial-button-prev">
-                  <FaChevronLeft />
-                </button>
-                <div style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  gap: '0.5rem',
-                  margin: '0 1rem'
-                }} className="testimonial-pagination"></div>
-                <button style={{
-                  width: '70px',
-                  height: '36px',
-                  borderRadius: '50%',
-                  background: 'rgba(255, 255, 255, 0.1)',
-                  border: 'none',
-                  color: '#fff',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  cursor: 'pointer',
-                  transition: 'all 0.3s ease'
-                }} className="testimonial-button-next">
-                  <FaChevronRight />
-                </button>
-              </div>
+                margin: '0 1rem'
+              }} className="testimonial-pagination"></div>
+              <button style={{
+                width: '70px',
+                height: '36px',
+                borderRadius: '50%',
+                background: 'rgba(255, 255, 255, 0.1)',
+                border: 'none',
+                color: '#fff',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer',
+                transition: 'all 0.3s ease'
+              }} className="testimonial-button-next">
+                <FaChevronRight />
+              </button>
             </div>
           </div>
         </div>
@@ -381,5 +367,39 @@ function Careers() {
     </div>
   );
 };
+
+// Testimonial data
+const testimonials = [
+  {
+    id: 1,
+    name: 'Alex Johnson',
+    role: 'AI Engineer',
+    company: 'TechNova',
+    content: 'Joining the AI team at INAI was a game-changer for my career. The projects are challenging and impactful, and the learning never stops.',
+    rating: 5,
+    image: 'https://randomuser.me/api/portraits/men/32.jpg'
+  },
+  {
+    id: 2,
+    name: 'Priya Patel',
+    role: 'Robotics Specialist',
+    company: 'FutureTech',
+    content: 'The work culture and innovative environment at INAI have helped me grow both professionally and personally. Truly a great place to build your career in tech.',
+    rating: 5,
+    image: 'https://randomuser.me/api/portraits/women/44.jpg'
+  },
+  {
+    id: 3,
+    name: 'David Kim',
+    role: 'Automation Expert',
+    company: 'AutoMech',
+    content: 'Working with cutting-edge technology and brilliant minds at INAI has been an incredible experience. The opportunities for growth are endless.',
+    rating: 4,
+    image: 'https://randomuser.me/api/portraits/men/67.jpg'
+  }
+];
+
+
+;
 
 export default Careers;

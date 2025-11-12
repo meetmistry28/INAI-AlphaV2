@@ -1,5 +1,7 @@
+import { LiaChalkboardTeacherSolid } from 'react-icons/lia';
 import '../styles/RoboticsExplore.css';
 import { useNavigate } from 'react-router-dom';
+import { LuBrainCircuit } from 'react-icons/lu';
 
 const RoboticsExplore = () => {
     const navigate = useNavigate();
@@ -405,7 +407,7 @@ const RoboticsExplore = () => {
                                     justifyContent: 'center',
                                     margin: '0 auto 1.5rem'
                                 }}>
-                                    {/* <LuAArrowDown size={32} color='#51d700' /> */}
+                                    <LuBrainCircuit size={32} color='#51d700' />
                                 </div>
                                 <h3 style={{
                                     fontSize: '1.5rem',
@@ -457,7 +459,7 @@ const RoboticsExplore = () => {
                                         backgroundColor: '#3da300',
                                         transform: 'translateY(-2px)'
                                     }
-                                }}>
+                                }} onClick={() => navigate('/boxintern')}>
                                     Apply Now
                                 </button>
                             </div>
@@ -482,7 +484,7 @@ const RoboticsExplore = () => {
                                     justifyContent: 'center',
                                     margin: '0 auto 1.5rem'
                                 }}>
-                                    {/* <LuALargeSmall size={32} color='#a5b4fc' /> */}
+                                    <LiaChalkboardTeacherSolid size={32} color='#a5b4fc' />
                                 </div>
                                 <h3 style={{
                                     fontSize: '1.5rem',
