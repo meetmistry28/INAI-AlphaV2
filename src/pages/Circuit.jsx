@@ -21,9 +21,6 @@ const Circuit = () => {
     return (
         <>
             <div className="plc-page">
-                <button onClick={handleBack} className="back-button">
-                    Back to Robotics
-                </button>
 
                 <div className="plc-header">
                     <div className="plc-icon">
