@@ -298,12 +298,10 @@ const RoboticsExplore = () => {
                         <h2 className="section-title" style={{
                             fontSize: '2.5rem',
                             margin: '0 0 15px',
-                            color: '#fff'
-                        }}>
-                            <span style={{ color: '#fff' }}>Career <span style={{ color: '#8b5cf6' }}>Opportunities</span></span>
-                        </h2>
+                            color: '#ffffff'
+                        }}>Career Opportunities</h2>
                         <p className="section-subtitle" style={{
-                            color: '#bbb',
+                            color: '#ffffff',
                             fontSize: '1.1rem',
                             maxWidth: '700px',
                             margin: '0 auto',
